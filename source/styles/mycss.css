@@ -1,0 +1,110 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto&display=swap);
+
+
+body {
+    font-family: Roboto, serif;
+    background: linear-gradient(90deg, #D0D0D0 0%, #DAD9D9 100%);
+    background-color: rgb(255, 255, 255);
+}
+.nav-link {
+    color: rgb(134, 126, 126);
+}
+
+.navbar-nav .nav-link.active {
+    color: rgb(255, 255, 255);
+}
+
+.navbar-brand img {
+    width: 40px;
+}
+
+.navbar-toggler {
+    background-color: rgb(134, 134, 134);
+
+}
+
+
+/* .card {
+    background: linear-gradient(90deg, #D0D0D0 0%, #DAD9D9 100%);
+} */
+
+.card a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.card .drefbad {
+    color: rgb(255, 255, 255);
+}
+
+.back-ground {
+    background-color: rgb(255, 255, 255);
+}
+
+.slide-text {
+    color: rgb(0, 0, 0);
+    margin: auto auto;
+    font-size: 1.5em;
+}
+
+.footer-text {
+    color: rgb(231, 226, 226);
+    margin: auto auto;
+}
+
+footer {
+    background-color:#1f2424;
+}
+
+.media-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-anim {
+    animation: myAnim 2s ease 0s infinite normal forwards;
+}
+
+@keyframes myAnim {
+	0%,
+	100% {
+		transform: rotate(0deg);
+		transform-origin: 50% 100%;
+	}
+
+	10% {
+		transform: rotate(2deg);
+	}
+
+	20%,
+	40%,
+	60% {
+		transform: rotate(-4deg);
+	}
+
+	30%,
+	50%,
+	70% {
+		transform: rotate(4deg);
+	}
+
+	80% {
+		transform: rotate(-2deg);
+	}
+
+	90% {
+		transform: rotate(2deg);
+	}
+}
+
+.btn-light {
+    background-color: rgb(190, 187, 187);
+}
+
+/* @media (max-width: 800px) {
+    .fghh {
+        display: none;
+    }
+} */
